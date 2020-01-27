@@ -1,0 +1,874 @@
+QUESTION 1
+You are an AWS Enterprise customer with questions about billing and your overall AWS account. Which of the following AWS support personnel should you contact?
+
+[ ] AWS Technical Account Manager
+[ ] AWS Support
+[ ] AWS Billing and Accounts
+[ ] AWS Concierge
+
+EXPLANATION:
+For AWS Enterprise customers, the AWS Concierge is a resource dedicated to answering billing and account questions.
+
+Answer: d
+
+QUESTION 2
+Which of the following are Support Levels offered by AWS?
+
+[ ] Individual
+[ ] Basic
+[ ] Developer
+[ ] Start-up
+[ ] Business
+
+EXPLANATION:
+AWS Support has four levels. Basic is their free entitlement for all AWS Customers. The three paid support plans in order of ascending cost are Developer, Business, and Enterprise. Start-up and Individual do not exist as Support Plans
+
+Answer: b, c, e
+
+QUESTION 13
+Which of the following AWS Support levels offers 24x7 support via phone or chat?
+
+[ ] Business
+[ ] Developer
+[ ] Individual
+[ ] Basic
+
+EXPLANATION:
+The Business and Enterprise support plans, the two most expensive plans, offer 24 X 7 support via phone or chat. Neither of the other support plans (Basic and Developer) offer Phone support. Individual is also not a real support plan
+
+Answer: a
+
+QUESTION 17
+What EC2 pricing model enables bidding at whatever price is desired for instance capacity, thereby making it ideal for flexibility with application start and end times?
+
+[ ] Dedicated Hosts
+[ ] Spot
+[ ] On Demand
+[ ] Reserved
+
+EXPLANATION:
+While On Demand allows a fixed rate payment by the hour or second with no commitment and Reserved provides a capacity reservation, it is the Spot EC2 pricing model that enables bidding on the desired price for instance capacity. By contrast with the other pricing models, Dedicated Hosts consists of an actual physical EC2 server.
+
+Answer: b
+
+QUESTION 19
+Which of the following are AWS EC2 reserved pricing types?
+
+[ ] Convertable Reserved Instances
+[ ] Scheduled Reserved Instances
+[ ] Scalable Reserved Instances
+[ ] Compute Reserved Instances
+[ ] Standard Reserved Instances
+
+EXPLANATION:
+Reserved instances have three main pricing models, Standard, Convertible and Scheduled. Each model is targeted with a specific use case and benefits from its own level of discounted price
+
+Answer: a , b, e
+
+QUESTION 20
+Which of the following support plans feature access to AWS support via email only during business hours?
+
+[ ] Enterprise
+[ ] Developer
+[ ] Business
+[ ] Basic
+
+EXPLANATION:
+The Developer support plan features access to AWS support during business hours via email. Business and Enterprise support plans allow 24x7 email support. The Basic support plan includes no email support options. Because the question specifies support *only* during business hours, there is only one correct answer.
+
+Answer: b
+
+QUESTION 23
+Which tool can help you to compare the cost of hosting resources in AWS vs the cost of hosting in a traditional data centre?
+
+[ ] AWS TCO Calculator
+[ ] AWS Billing Alarms
+[ ] AWS Pricing Calculator
+[ ] AWS Budgets
+
+EXPLANATION:
+The TCO calculators allow you to estimate the cost savings when using AWS and provide a detailed set of reports. Pricing Calculator can be used to estimate potential AWS spend, and AWS Budgets & Billing Alarms can help keep spend under control by alerting you when you breach a threshold.
+
+Answer: a
+
+QUESTION 28
+
+[ ] When would you use the Reserved Instance pricing model?
+[ ] CAPEX vs OPEX charging model
+[ ] Predictable workload types
+[ ] Unpredictable workloads
+[ ] Ability to bid on the lowest compute price possible
+
+EXPLANATION:
+Reserved instances are a great way of reducing costs on long running applications with predictable workloads. Even if the money is not available to make upfront payments, using Reserved Instances over longer periods can still be useful for cost savings
+
+Answer: a, b
+
+QUESTION 37
+Which of the following best describes a Resource Group?
+
+[ ] A resource group is a collection of resources of the same type (EC2, S3, etc.) that are deployed in the same Availability Zone.
+[ ] A resource group is a collection of resources that are deployed in the same Availability Zone.
+[ ] A resource group is a collection of resources of the same type (EC2, S3, etc.) that share one or more tags or portions of tags.
+[ ] A resource group is a collection of resources that share one or more tags (or portions of tags.)
+
+EXPLANATION:
+A resource group is a collection of resources that share one or more tags (or portions of tags.)
+
+Answer: d
+
+QUESTION 41
+Which of the following support plans features a < 4-hour response time in the event of an impaired production system?
+
+[ ] Individual
+[ ] Business
+[ ] Basic
+[ ] Developer
+
+EXPLANATION:
+Both the Business and Enterprise support levels offer a < 4-hour response time in the event of an impaired production system. Developer is < 12-hour response time in case of any system impairment. Basic does not offer any support for system impairment. Individual is not a real support plan
+
+Answer: b
+
+QUESTION 43
+Which of the following AWS Support levels offers the assistance of a Technical Account Manager?
+
+[ ] Enterprise
+[ ] Premium
+[ ] Business
+[ ] Developer
+
+EXPLANATION:
+Only Enterprise (the highest level of Support Plan) offers the services of a Technical Account Manager.
+
+Answer: a
+
+QUESTION 44
+You need an AWS support plan for your production workloads, but want to keep costs to a minimum. Which of the following plans should you choose?
+[ ] Basic
+[ ] Enterprise
+[ ] Developer
+[ ] Business
+EXPLANATION:
+The Business Support plan is specifically designed for production workloads in AWS. On one end, Basic Support is included for all AWS customers, and Developer Support plan is best suited for experimenting or testing in AWS. On the other end, there’s the Enterprise Support plan, which is ideal for business and mission-critical workloads.
+
+Answer: d
+
+QUESTION 3
+Which of the following statements about AWS Region is true?
+
+[ ] Regions are used where
+[ ] Regions are generally specific geographical areas
+[ ] Regions are made up of Availability Zones
+[ ] Regions are automatically fully synchronized to contain the same data globally
+
+EXPLANATION:
+A region is a geographical area divided into Availability Zones. Each region contains at least two publicly accessible Availability Zones.
+RESOURCES
+AWS Global Infrastructure
+STATS
+You didn't provide an answer to this question!
+
+Answer: b
+
+QUESTION 9
+A telecommunications company has his hired you as a consultant to develop a business case for moving its IT applications and infrastructure to AWS. The company’s leadership understands the agility value of the cloud, but the finance group is not interested in shifting capital expense to operating expense due to the company’s tax structure. What will you include in the business case to attempt to satisfy everyone at the company?
+
+[ ] Show the company the TCO value of moving to an operating expense model
+[ ] Suggest that the company wait to migrate to AWS until the current infrastructure is fully depreciated
+[ ] Suggest that the company make reserved instance purchases and capitalize them
+[ ] Show the value of an elastic infrastructure for avoiding wasted capacity
+
+EXPLANATION:
+Many companies capitalize reserved instance purchases, especially those with 3-year terms. Waiting for current infrastructure to fully depreciate will cause the company to miss the other cloud benefits that are available. Moving the company to an operating expense model will prove too large a task, and will most likely result in a rejected business case. Elastic infrastructure is definitely a benefit, but doesn't address the capitalization issue.
+
+Answer: c
+
+QUESTION 14
+Which of the following best describes the ability to scale computing resources up or down easily, while only paying for the resources used?
+
+[ ] Scalability
+[ ] Fault-tolerance
+[ ] High Availability
+[ ] Elasticity
+
+EXPLANATION:
+Elasticity describes the ability to scale computing resources up or down easily, while only paying for the resources used.
+
+Answer: d
+
+QUESTION 15
+Which of the below is correct when looking at Regions, Availability Zones, Edge Location and Datacentres?
+
+[ ] There are more Availability Zones then Regions
+[ ] There are more Regions than Availability zones
+[ ] The number of Availability Zones is the same as the number of Regions
+[ ] There are more Availability Zones than Edge locations
+
+EXPLANATION:
+Regions contain two or more Availability Zones, which are themselves made up of one or more Datacentres. This means there will always be more AZs than Regions. Edge locations are separate from AZs and Regions, and there are more Edge Locations than Regions and Availability Zones.
+
+Answer: a
+
+QUESTION 21
+Which of the following is not part of the AWS Global infrastructure?
+
+[ ] Regions
+[ ] Security Groups
+[ ] Availability Zones
+[ ] Edge Locations
+
+EXPLANATION:
+Regions, AZs, and Edge Locations are part of the AWS Global Infrastructure. Security Groups are a part of IAM (Identity and Access Management)
+
+Answer: b
+
+QUESTION 24
+Which of the following best describes a system that will remain operational even in the event of a component failure?
+
+[ ] Elastic
+[ ] Highly Available
+[ ] Scalable
+[ ] Fault-tolerant
+
+EXPLANATION:
+a fault-tolerant system will remain operational even in the event of a component failure.
+
+Answer: d
+
+QUESTION 26
+A mobile shopping list app needs to be able to add, delete, and update items on specific lists anytime a user desires. The backend for the app will run on Amazon EC2 instances with Auto Scaling to manage fluctuations in user demand. Many times, a user will perform maintenance on many list items in a single session. What design characteristic must be incorporated into the app for these requirements to be met?
+
+[ ] Implement session affinity
+[ ] Use bootstrapping on the EC2 instances
+[ ] Leverage load balancing to distribute transactions to multiple nodes
+[ ] Make sure the app doesn’t need knowledge of previous transactions
+
+EXPLANATION:
+In order for horizontal scaling to be effective, you'll want to make sure the app doesn't store previous transaction or session information on specific EC2 instances. That way, any EC2 instance provisioned by Auto Scaling can process the request. Leveraging load balancing is also a good practice, but doesn't address the need for a stateless app. Session affinity goes the other direction, directing a load balancer to route transactions to a specific instance each time. Bootstrapping runs scripts each time an EC2 instance is provisioned.
+
+Answer: d
+
+QUESTION 31
+Under the Shared Responsibility Model, for which of the following does AWS not assume responsibility?
+
+[ ] Customer data
+[ ] Networking
+[ ] Physical security of AWS facilities
+[ ] Hypervisors
+
+EXPLANATION:
+Customers are responsible for thier own customer data in the cloud. AWS manages the Networking, Hypervisor Configuration, and Physical Security
+
+Answer: a
+
+QUESTION 36
+Adding resources to your application as user demand grows is an example of which cloud concept?
+
+[ ] High Availability
+[ ] Scalability
+[ ] Elasticity
+[ ] Automation
+
+EXPLANATION:
+Scalability is the concept that as cloud has essentially limitless capacity, it allows you to expand out as needed - as detailed in the question. Automation relates to simplyfying common repeated tasks and removing the human element. Although elasticity (the ability to go up and down in resources as needed) is related, this question specifically ask for in in response to user demand, which is closer to Scalability. High Availability relates to the ability of your application to withstand failures in Cloud Infrastructure.
+
+Answer: b
+
+QUESTION 40
+Which of the following best describes Availability Zones?
+
+[ ] Restricted areas designed specifically for the creation of Virtual Private Clouds.
+[ ] Two zones containing compute resources that are designed to automatically maintain synchronized copies of each other's data.
+[ ] A Content Distribution Network used to deliver content to users
+[ ] Distinct locations from within an AWS region that are engineered to be isolated from failures.
+
+EXPLANATION:
+Availability Zones are distinct locations from within an AWS region that are engineered to be isolated from failures. Each Region is made up of one or more AZs. Availability Zones host almost every AWS service, including EC2 instances, S3 buckets, and much more. Some services will maintain copies of your data between Availability Zones, but this is dependent on the individual service (for example, S3 can store data in multiple AZ's, where an EC2 instance is tied to a single AZ). AWS's Content Distribution Network (CDN) is known as CloudFront.
+
+Answer: d
+
+QUESTION 49
+Which of the following are types of cloud computing deployments?
+
+[ ] Private cloud
+[ ] Mixed cloud
+[ ] Public cloud
+[ ] Hybrid cloud
+
+EXPLANATION:
+The three types of cloud deployments are: Public - where everyone and anyone can access that cloud's resources Private - also called on-premises where the underlying cloud infrastructure is owned and operated by a private entity for the sole use of that entity Hybrid - which is a mix of both. Mixed cloud is not a term used to describe a cloud computing deployment
+
+Answer: a, c, d
+
+QUESTION 52
+You have a mission-critical application which must be globally available at all times. Which deployment strategy should you follow?
+
+[ ] Multi-Availability Zone
+[ ] Multi-Region
+[ ] Multi-VPC in two AWS Regions
+[ ] Deploy to all Availability Zones in your home region.
+
+EXPLANATION:
+A Multi-Region deployment will best ensure global availability. While it can be the most expensive, and complex to configure, Multi-Regional architectures will ensure that even if all Availability Zones in a single region fail due to a catastrophic event, your data will remain accessible.
+
+Answer: b
+
+QUESTION 55
+Which of the following are advantages of cloud computing?
+
+[ ] Variable expense
+[ ] No specialist knowledge required
+[ ] Elasticity - you need not worry about capacity.
+[ ] Agility - Decreasing the time to start new services
+[ ] Requires large amounts of capital
+
+EXPLANATION:
+Elasticity, Agility, and the ability to control the variances in your month-to-month expenditure are all advantages of the flexibility of Cloud Computing. You do still need specialist knowledge to deploy solutions in the Cloud, such as AWS Certifications. Large amounts of capital are also not needed due to the consumption model of most cloud services, although you can sometimes use capital expenditure to purchase resources for extended periods of time, such as Reserved Instances in EC2.
+
+Answer: a, c, d
+
+QUESTION 58
+Which of the following is correct?
+
+[ ] # of Edge Locations > # of Availability Zones > # of Regions
+[ ] # of Availability Zones > # of Regions > # of Edge Locations
+[ ] # of Availability Zones > # of Edge Locations > # of Regions
+[ ] # of Regions > # of Availability Zones > # of Edge Locations
+
+EXPLANATION:
+The number of Edge Locations is greater than the number of Availability Zones, which is greater than the number of Regions. Regions contain Availability Zones, therefore there will always be more AZs than Regions.
+
+Answer: a
+
+QUESTION 62
+How many Availability Zones does each Region have?
+
+[ ] Regions don't have Availability Zones, Availability Zones have Regions
+[ ] At least 2
+[ ] At least 3
+[ ] Only 1
+
+EXPLANATION:
+Normal Regions are made up of at least 2 Availability Zones to allow for highly available architectures in the cloud. The actual number of AZs can vary per Region. There is a special class of Region called a 'Local Region' that have only 1 AZ, however that is viewed as an abnormal case by AWS.
+
+Answer: b
+
+QUESTION 64
+Which of the following support plans features unlimited (customer-side) contacts and unlimited support cases?
+
+[ ] Business
+[ ] Enterprise
+[ ] Developer
+[ ] Basic
+
+EXPLANATION:
+Both Enterprise and Business support plans feature unlimited (customer-side) contacts and unlimited support cases.
+
+Answer: a, b
+
+QUESTION 4
+When talking about AWS security, what does "Authorization" refer to?
+
+[ ] Logging in to the console
+[ ] Evaluating what permissions a user has
+[ ] A user delegating access to another user temporarily
+[ ] Identifying who is accessing the system
+
+EXPLANATION:
+Authentication identifies who is accessing the system and passes that information to the Authorization process, which in turn determines what permissions the user has in AWS. Although Authorization is a part of the process to log in to the console, by itself it it is not enough.
+
+Answer: b
+
+QUESTION 6
+Which of the below are TRUE when running a database in an EC2 Instance?
+
+[ ] The customer is responsible for managing access to the database
+[ ] The customer is responsible for updating the database software
+[ ] The customer is responsible for updating the operating system
+[ ] AWS is responsible for updating the database software
+[ ] AWS is responsible for managing access to the database
+[ ] AWS is responsible for updating the operating system
+
+EXPLANATION:
+In this case - as the database is being run in an EC2 instance, all aspects of database updates and access is the responsibility of the customer. Similarly as it is and EC2 instance, the customer is responsible for OS patching. Under the Shared Responsibility Model, AWS takes responsibility for managing all the hardware (including access, patching and other maintenance) and software required to deliver the service - which in this case is the EC2 instance - anything to do with the instance itself is the responsibility of the customer
+RESOURCES
+The AWS Shared Responsibility Model
+STATS
+You didn't provide an answer to this question!
+
+Answer: a, b, c
+
+QUESTION 8
+You would like to give an application running on one of your EC2 instances access to an S3 bucket - what is the best way to implement this?
+
+[ ] Make the bucket public
+[ ] Use an IAM user for the application
+[ ] Assign the instance an IAM role
+[ ] Give the application a set of Access Keys
+
+EXPLANATION:
+The recommended method to assign permissions to apps running in EC2 is to use IAM roles. Making the bucket public could work, but will also expose all the data to the internet and is not secure. The other methods are also less secure than using IAM roles and are not recommended in this case.
+
+Answer: c
+
+QUESTION 18
+Which of the following are best practices when it comes to securing your AWS account?
+
+[ ] Store your Root account keys on your application for easy access.
+[ ] Activate MFA on the Root Account.
+[ ] Delete your Root access keys.
+[ ] Create individual IAM users.
+[ ] Apply an IAM password policy.
+[ ] Use groups to assign permissions.
+[ ] Delete your Root account password.
+
+EXPLANATION:
+Creating individual IAM users, using groups to assign them permission and creating a strong password policy are all key components of securing your AWS account. The root user should only be used in emergencies, therefore there should be no need to have Root Access Keys which allow the root user Programmatic access - any Programmatic access should use something other than the root account. It is not possible to delete the root password, and this should be securely, safely stored and not used in any applications!
+
+Answer: b, c, d, e, f
+
+QUESTION 22
+Which of the below are TRUE statements when it comes to data security in AWS?
+
+[ ] The customer is responsible for managing who can access the data
+[ ] AWS is responsible for managing who can access the data
+[ ] AWS is responsible for the security of the software that manages the data
+[ ] AWS is responsible for the security of the hardware the data resides on
+[ ] The customer is responsible for the security of the hardware the data resides on
+[ ] The customer is responsible for the security of the software that manages the data
+
+EXPLANATION:
+Under the Shared Responsibility Model, AWS takes responsibility for managing all the hardware (including access, patching and other maintenance) and software required to deliver the service - which includes security. The customer is responsible for who can access the data itself.
+
+Answer: a, c, d
+
+QUESTION 29
+Your company has updated its security policies to include cloud workloads as well as those running on-premises. Your manager would like a report of which technologies will require configuration changes. Which of the following will not be included in the report because they are the responsibility of AWS?
+
+[ ] S3 Access Control Lists
+[ ] Security Group firewalls
+[ ] Host operating systems
+[ ] Amazon Aurora data encryption
+
+EXPLANATION:
+In the AWS Shared Responsibility Model, AWS in responsible for managing host operating systems. Users are responsible for managing guest operating systems, as well as Security Group Firewalls, Amazon Aurora data encryption, and S3 access control lists.
+
+Answer: c
+
+QUESTION 32
+A consulting firm is conducting a Sarbanes-Oxley compliance audit of your IT operations. The auditor requests visibility to logs of event history across your AWS-based employee expense system infrastructure. Which AWS service will record and provide give you the information you need?
+
+[ ] AWS CloudWatch Logs
+[ ] AWS Systems Manager
+[ ] AWS CloudTrail
+[ ] AWS Compliance Manager
+
+EXPLANATION:
+AWS CloudTrail provides visibility to API call activity for AWS infrastructure and other services. AWS Cloudwatch Logs might be part of a centralized logging solution, but all API event information will come from CloudTrail. AWS Systems Manager can process EC2 logs only, and AWS Compliance Manager is not a service offered by AWS.
+
+Answer: c
+
+QUESTION 35
+What is the recommended way to give your applications running in EC2 permission to other AWS resources?
+
+[ ] Create an Root Access Key and use it in the application.
+[ ] Create an IAM User with appropriate permissions and assign it to the instance.
+[ ] Create an IAM Group with appropriate permissions and assign it to the instance.
+[ ] Create an IAM Role with appropriate permissions and assign it to the instance.
+
+EXPLANATION:
+You should use IAM Roles wherever possible to enable applications running on EC2 instances to access other AWS resources. This is the most secure method to do so. It is not possible to assign an IAM Group or User to an instance, and although using the Root Keys in you application would work this is HIGHLY insecure and should never be done, as the Root Keys have access to absolutely everything in your account.
+
+Answer: d
+
+QUESTION 42
+Which of the following Compliance guarantees attests to the fact that the AWS Platform has met the standard required for the secure storage of medical records in the US?
+
+[ ] HITECH
+[ ] HIPAA
+[ ] FERPA
+[ ] GLBA
+[ ] HIPPO
+
+EXPLANATION:
+A HIPAA certification attests to the fact that the AWS Platform has met the standard required for the secure storage of medical records in the US.
+
+Answer: b
+
+QUESTION 46
+Which of the following are programmatic access types enabling users to interact with AWS services?
+
+[ ] SDK
+[ ] PHP
+[ ] API
+[ ] CLI
+
+EXPLANATION:
+The CLI, the API, and the SDK are programmatic access types enabling users to interact with AWS services, as long as they are authorized to do so. PHP is a seperate programming language.
+
+Answer: a, c, d
+
+QUESTION 47
+Which of the following Compliance certifications attests to the security of the AWS platform regarding credit card transactions?
+
+[ ] PCI DSS Level 1
+[ ] SOC 1
+[ ] SOC 2
+[ ] ISO 27001
+
+EXPLANATION:
+PCI DSS is a compliance program which must be followed by any organizations handling Credit Card data. AWS has achieved a PCI Level 1 certification, the highest level available
+
+Answer: a
+
+QUESTION 51
+Which of the following acts like built-in firewalls per instance for your virtual servers?
+
+[ ] Security Groups
+[ ] Network Access Control Lists
+[ ] Route Tables
+[ ] Availability Zones
+
+EXPLANATION:
+Security Groups act like built-in firewalls for your virtual servers - the rules you create define what is allowed to talk to your instances and how. Although Network Access Control Lists can be used to block or deny traffic, these operate at the subnet level - covering all instances in the subnet with the same ruleset, not per-instance as the question specifies. Route tables tell traffic where it should go next to reach its destination, and an Availability Zone is a collection of datacentres - which isn't relevant in this question.
+
+Answer: a
+
+
+QUESTION 53
+Which of the following are components of the AWS Risk and Compliance Program?
+
+[ ] Risk Management
+[ ] Control Environment
+[ ] Environment Automation
+[ ] Security Principles
+[ ] Information Security
+[ ] Physical Security
+[ ] Identity and Access Management
+
+EXPLANATION:
+Control Environment, Risk Management and Information Security are all components of the AWS Risk and Compliance Program. Control Environment includes policies, processes and control activities that are in place to secure the delivery of AWS’ service offerings. AWS management has developed a strategic business plan which includes risk identification and the implementation of controls to mitigate or manage risks as part of the Risk Management component. AWS has implemented a formal information security program designed to protect the confidentiality, integrity, and availability of customers’ systems and data.
+
+Answer: a, b, e
+
+QUESTION 56
+Which of the below statements are correct in relation to security responsibilities in AWS?
+
+[ ] AWS is responsible for the security IN the cloud
+[ ] As an AWS customer, you are responsible for the security IN the cloud
+[ ] As an AWS customer, you are responsible for the security OF the cloud
+[ ] AWS is responsible for the security OF the cloud
+
+EXPLANATION:
+AWS is responsible for the security OF the cloud - the security of components that run the cloud service. The customer is responsible for security IN the cloud -- that is, the security of their AWS resources and data.
+
+Answer: b, d
+
+QUESTION 60
+Which of the following AWS services can help you assess the fault-tolerance of your AWS environment?
+
+[ ] AWS WAF
+[ ] AWS Inspector
+[ ] AWS Shield
+[ ] AWS Trusted Advisor
+
+EXPLANATION:
+AWS Trusted Advisor can help you assess the fault-tolerance of your AWS environment. AWS Inspector can help you assess your security
+
+Answer: d
+
+QUESTION 61
+Which of the below is true about root accounts on AWS?
+
+[ ] The root user will be used by AWS should they need to help you with something in your account
+[ ] The root user is the recommended way to work in the AWS Console
+[ ] The root user has full access to everything in the AWS account
+[ ] The root user should not be used for day to day activities
+[ ] The root user should be disabled after you create an Admin user
+
+EXPLANATION:
+The root user has access to absolutely everything in an AWS account, and therefore should not be used for normal day to day activities and be reserved for when things go wrong. AWS will never ask you for any usernames or passwords as part of a support request - so any request to do so should be treated with suspicion. The root user cannot be disabled.
+
+Answer: c, d
+
+QUESTION 5
+Which of the following are storage services?
+
+[ ] AWS RDS
+[ ] AWS VPC
+[ ] AWS Elastic File System
+[ ] S3
+
+EXPLANATION:
+VPC is a Networking service, and RDS is a Database service, leaving S3 and Elastic File System as the storage services
+
+Answer: c, d
+
+QUESTION 7
+Which of the following AWS services should you use if you'd like to be notified when you have crossed a billing threshold?
+
+[ ] AWS Budget
+[ ] AWS Cost Allocation
+[ ] CloudWatch
+[ ] Trusted Advisor
+
+EXPLANATION:
+A CloudWatch alarm can be set to monitor spending on your AWS Account.
+
+Answer: c
+
+QUESTION 10
+What is the maximum number of objects you can store in S3 per AWS account?
+
+[ ] 262,144
+[ ] 1,048,576
+[ ] 65,536
+[ ] Unlimited
+
+EXPLANATION:
+You can store an essentially unlimited number of objects in S3 - either in a single bucket or across multiple in your account
+
+Answer: d
+
+QUESTION 11
+Which of the following is AWS' managed database service that is compatible with MySQL, but provides better performance?
+
+[ ] Aurora
+[ ] MariaDB
+[ ] DynamoDB
+[ ] PostgreSQL
+
+EXPLANATION:
+Aurora is AWS' managed database service that is up to 5X faster than a traditional MySQL database. PostgreSQL, DynamoDB, and MariaDB are all different database technologies which are not directly compatible with MySQL
+
+Answer: a
+
+QUESTION 12
+With AWS Relational Database Service (RDS), which of the following are you responsible for?
+
+[ ] Database backups
+[ ] Scaling
+[ ] The optimization of your application using RDS
+[ ] Database software installation and patching
+[ ] Operating system installation and patching
+[ ] All of these
+
+EXPLANATION:
+You are responsible only for the optimization of your application that uses RDS - AWS will take care of the rest as this is considered a Managed Service.
+
+Answer: c
+
+QUESTION 16
+Which of the below allow you to make entire buckets (like one hosting an S3 website) public?
+
+[ ] Access Policies
+[ ] Bucket Control Lists
+[ ] Bucket Policies
+[ ] Access Control Lists
+
+EXPLANATION:
+Bucket Policies allow you to control access to entire buckets, whereas Access Control Lists let you control access to individual objects within an S3 bucket. In relation to S3, Bucket Control Lists and Access Policies do not exist as configuration items.
+
+Answer: c
+
+QUESTION 25
+You need to store a collection of objects that can also be accessed from a different AWS Region. Which service should you use to do this?
+
+[ ] S3
+[ ] EBS
+[ ] Elastic Container Service
+[ ] DynamoDB
+
+EXPLANATION:
+S3 allows you to access objects from anywhere in the world - as long as the appropriate permissions are set!
+
+Answer: a
+
+QUESTION 27
+For which of the following categories does AWS Trusted Advisor provides best practices and/or or checks of your AWS environment?
+
+[ ] Availability of AWS resources
+[ ] Right-size
+[ ] Performance
+[ ] Security
+[ ] Fault Tolerance
+[ ] Cost Optimization
+[ ] High-Availability
+
+EXPLANATION:
+Trusted Advisor provides best practices and/or or checks on Cost Optimization, Performance, Security, and Fault Tolerance.
+
+Answer: c, d, e, f
+
+QUESTION 30
+How can Auto Scaling help your resources handle changes in demand?
+
+[ ] By adding or removing storage based on conditions you specify
+[ ] By increasing or decreasing the size of your EC2 instances based on conditions you specify
+[ ] By adding or removing EC2 instances from your EC2 fleet based on conditions you specify
+[ ] By increasing or decreasing the size of your storage based on conditions you specify
+
+EXPLANATION:
+Auto Scaling allows you to automatically add or remove EC2 instances based on conditions you specify - these can include such things as at a specific time, or depending on how busy your application. Autoscaling cannot change the size of existing instances, nor can it add or change storage on an instance.
+
+Answer: c
+
+QUESTION 33
+Which of the below allow you to restrict access to an entire S3 bucket?
+
+[ ] Access Control Lists
+[ ] Access Policies
+[ ] Bucket Policies
+[ ] Bucket Control Lists
+
+EXPLANATION:
+Access Control Lists let you control access to individual objects within an S3 bucket, whereas Bucket Policies allow you to control access to entire buckets. In relation to S3, Bucket Control Lists and Access Policies do not exist as configuration items.
+
+Answer: c
+
+QUESTION 34
+A Web Application Firewall operates at which layer of the OSI model?
+
+[ ] Layer 7
+[ ] Layer 2
+[ ] Layer 4
+[ ] Layer 1
+
+EXPLANATION:
+The seven layers of the OSI model in ascending order are Physical, Data, Network, Transport, Session, Presentation, Application. A Web Application Firewall protects web traffic from mallicious exploits and operates at the Application layer, Layer 7. Network-level protection, like that offered by AWS Shield, operates at Layer 4.
+
+Answer: a
+
+QUESTION 38
+You wish to set up a website consisting of 5 pages advertising your writing and editing services. The WordPress theme you have chosen for the site is a simple, straightforward text-and-image layout. Using the EC2 service to set up your WordPress website, which of the following would be the most cost-effective EC2 instance type to go with?
+
+[ ] Memory optimized
+[ ] General purpose
+[ ] Compute optimized
+[ ] Accelerated computing
+[ ] Storage optimized
+
+EXPLANATION:
+A general purpose EC2 instance is the ideal choice, since it provides equal proportions of compute, memory, and networking resources. This website does not indicate that it needs a greater-than-usual proportion of memory, storage, or computing power.
+
+Answer: b
+
+QUESTION 39
+Which of the following statements is false regarding Amazon ElastiCache?
+
+[ ] It saves common queries to enable faster retrieval of information than disk-based databases.
+[ ] It makes it easier to set up, operate, and scale a distributed cache in the cloud.
+[ ] It reduces the administrative burden that comes with launching and managing a distributed cache.
+[ ] It is used for making write operations to databases significantly faster three open-source in-memory caching engines.
+
+EXPLANATION:
+All statements are correct about ElastiCache save for one. ElasticCache is designed to streamline read operations. Write operations cannot be performed with Elasticache
+
+Answer: d
+
+QUESTION 45
+Which of the following languages can be used to author CloudFormation templates?
+
+[ ] CAMEL
+[ ] Python
+[ ] YAML
+[ ] JSON
+
+EXPLANATION:
+CloudFormation supports both JavaScript Object Notation (JSON) and YAML Ain't Markup Language (aka YAML) for authoring CloudFormation template
+
+Answer: c, d
+
+QUESTION 48
+You need to allow resources in a private subnet to access the internet. Which of the following must be present to enable this access?
+
+[ ] Route Tables
+[ ] Security Groups
+[ ] Network Access Control Lists
+[ ] NAT Gateway
+
+EXPLANATION:
+A NAT Gateway is required to allow resources in a private subnet to access the internet. Route tables tell traffic where it should go next to reach its destination, but don't actually process or transmit traffic. Security Groups and Network Access Control Lists are used to protect resources from traffic, and by themselves do not enable access to the internet - although they need to be properly configured to let traffic bound for the internet out.
+
+Answer: d
+
+QUESTION 50
+Which of the following are key components of Amazon Glacier?
+
+[ ] Vault
+[ ] Access Policy
+[ ] Volume
+[ ] Table
+[ ] Bucket
+[ ] Archive
+
+EXPLANATION:
+Data is organised in S3 into Archives, and Vaults are used to group Archives together. Access policies control who can access the data in Archives & Vaults. Buckets are a part of S3, but not Glacier. Volumes are often associated with hard disks and therefore EBS, while Tables are database constructs.
+
+Answer: a, b, f
+
+QUESTION 54
+A new System Administrator has started with your organisation and requires a user account so that they can manage you AWS resources. You have AWS resources in multiple regions - what needs to be done to allow the new starter access to manage resources in the regions you operate in?
+
+[ ] Create an IAM role in each region that you have resources in - this will enable access in per region
+[ ] Create a single IAM user account - this will enable access in all regions
+[ ] Create a single IAM role - this will enable access in all regions
+[ ] Create an IAM user account in each region that you have resources in - this will enable access in per region
+
+EXPLANATION:
+Any answer that suggest a role is incorrect as roles by themselves will not let a user log in. The correct approach is to create an IAM user - and as IAM is a global service - configuration in IAM applies globally, not just regionally, only a single IAM user account is required.
+
+Answer: b
+
+QUESTION 57
+Which of the below is TRUE when considering subnets in a VPC?
+
+[ ] Subnets within a VPC can only communicate with each other if an Internet Gateway is deployed
+[ ] By default, all subnets within a VPC can communicate with each other
+[ ] By default, subnets within a VPC cannot communicate with each other
+[ ] Subnets within a VPC can only communicate with each other if a NAT Gateway is deployed
+
+EXPLANATION:
+By default, all subnets within a VPC can communicate with each other, without needing any other resources or configuration. NAT Gateway and Internet Gateway work in different scenarios to allow your subnet to communicate with the internet and are not required to communicate between subnets
+
+Answer: b
+
+QUESTION 59
+An EC2 instance in your VPC needs which of the following for the Internet Gateway to route its traffic to the Internet?
+
+[ ] Public IP address
+[ ] A-Name
+[ ] C-Name
+[ ] Private IP address
+
+EXPLANATION:
+An EC2 instance in your VPC needs a Public IP address for the Internet Gateway to route its traffic to the Internet
+
+Answer: a
+
+QUESTION 63
+You have just created a new bucket and uploaded a file into it - will this be automatically viewable by anyone on the internet?
+
+[ ] Only if you have an Internet Gateway
+[ ] No - by default buckets and their contents are private
+[ ] Only if you have a NAT Gateway
+[ ] Yes - by default buckets and their contents are public
+
+EXPLANATION:
+By default, all data stored in S3 is NOT viewable by the public. If you want a bucket or object to be accessible by the public, you must explicitly make it so. NAT Gateways and Internet Gateways are needed to allow communications between VPCs and the internet, but are not required when it comes to S3
+
+Answer: b
+
+QUESTION 65
+You have a variable and intermittent workload, so you want to use a compute service that allows you to pay only for the compute resources you use , without paying for compute time when your code isn’t running. Which of the following services should you use?
+
+[ ] ECS
+[ ] Lightsail
+[ ] Lambda
+[ ] EC2
+
+EXPLANATION:
+Lambda allows you to run a variable and intermittent code without paying for compute time when your code isn’t running.
+
+Answer: c
